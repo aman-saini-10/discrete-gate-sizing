@@ -57,7 +57,7 @@ critical-path analysis and the standard-cell size table, is in `ee24s007_project
 
 | Path | Contents |
 |------|----------|
-| `EE6332_endsem.ipynb` | Main notebook: GP formulation, discretization, area recovery |
+| `main_notebook.ipynb` | Main notebook: GP formulation, discretization, area recovery |
 | `parser.py`, `utilities.py` | Parse structural Verilog netlists into DAGs (networkx) and report critical paths and fan-out |
 | `config.json` | Input, output and report directories |
 | `iscas85_ckts/` | ISCAS-85 benchmark netlists |
