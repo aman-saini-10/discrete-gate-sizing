@@ -1,0 +1,40 @@
+--- Continuous Solution Details ---
+ISCAS85 Benchmark ckt: c7552
+T_delay: 218.226 --->  [Optimal Area Solution, (T_spec/T_wall) = 1.3]
+Sum of sizes: 5995.34
+
+--- Discrete Solution Details; Type: (floor) ---
+T_delay: 266.333
+Sum of sizes: 5873.00
+
+--- Discrete Solution Details; Type: (ceil) ---
+T_delay: 229.512
+Sum of sizes: 10976.00
+
+--- Discrete Solution Details; Type: (round) ---
+T_delay: 231.524
+Sum of sizes: 5989.00
+
+--- Discrete Solution Details; Type: (continuous) ---
+T_delay: 218.226
+Sum of sizes: 5995.34
+
+--- Beginning discretization for c7552; T_spec = T_wall*1.3 ---
+
+Time Taken for discretization using Branch and Bound: 848.7413 sec.
+
+--- Beginning final tweaks. Local Refinement steps ---
+
+Time Taken for final tweaks: 0.0002 sec.
+
+--- Discrete Solution Details; Type: (Branch and Bound -BFS-) ---
+T_delay: 217.333
+Sum of sizes: 6147.00
+--- Optimizing Area ---
+T_delay: 218.156
+Sum of sizes: 6067.00
+
+Time Taken for area optimization: 185.9134 sec.
+
+Time Taken to obtain area-optimal solution: 1034.6563 sec.
+

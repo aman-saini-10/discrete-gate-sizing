@@ -1,0 +1,40 @@
+--- Continuous Solution Details ---
+ISCAS85 Benchmark ckt: c2670
+T_delay: 232.303 --->  [Optimal Area Solution, (T_spec/T_wall) = 1.3]
+Sum of sizes: 2708.75
+
+--- Discrete Solution Details; Type: (floor) ---
+T_delay: 282.167
+Sum of sizes: 2607.00
+
+--- Discrete Solution Details; Type: (ceil) ---
+T_delay: 242.706
+Sum of sizes: 4565.00
+
+--- Discrete Solution Details; Type: (round) ---
+T_delay: 256.000
+Sum of sizes: 2676.00
+
+--- Discrete Solution Details; Type: (continuous) ---
+T_delay: 232.303
+Sum of sizes: 2708.75
+
+--- Beginning discretization for c2670; T_spec = T_wall*1.3 ---
+
+Time Taken for discretization using Branch and Bound: 120.6356 sec.
+
+--- Beginning final tweaks. Local Refinement steps ---
+
+Time Taken for final tweaks: 0.0001 sec.
+
+--- Discrete Solution Details; Type: (Branch and Bound -BFS-) ---
+T_delay: 230.567
+Sum of sizes: 2836.00
+--- Optimizing Area ---
+T_delay: 231.883
+Sum of sizes: 2709.00
+
+Time Taken for area optimization: 56.1753 sec.
+
+Time Taken to obtain area-optimal solution: 176.8115 sec.
+

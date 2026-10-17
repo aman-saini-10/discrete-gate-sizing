@@ -1,0 +1,13 @@
+{
+  "_note_1": "Directory containing Input Files (verilog netlists)",
+  "verilog_dir": "./iscas85_ckts",
+
+  "_note_2": "Directory where the DAG will be saved as a json file",
+  "dag_output_dir": "./DAG_json/",
+
+  "_note_3": "Directory where 'utilities.py' is located",
+  "utilities_dir": "./",
+
+  "_note_4": "Directory where the output reports will be saved",
+  "reports_dir": "./analyses/"
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "input",
+      "name": "N1",
+      "id": "N1"
+    },
+    {
+      "type": "input",
+      "name": "N2",
+      "id": "N2"
+    },
+    {
+      "type": "input",
+      "name": "N3",
+      "id": "N3"
+    },
+    {
+      "type": "input",
+      "name": "N6",
+      "id": "N6"
+    },
+    {
+      "type": "input",
+      "name": "N7",
+      "id": "N7"
+    },
+    {
+      "type": "NAND_2",
+      "name": "NAND2_1",
+      "id": "N10"
+    },
+    {
+      "type": "NAND_2",
+      "name": "NAND2_2",
+      "id": "N11"
+    },
+    {
+      "type": "NAND_2",
+      "name": "NAND2_3",
+      "id": "N16"
+    },
+    {
+      "type": "NAND_2",
+      "name": "NAND2_4",
+      "id": "N19"
+    },
+    {
+      "type": "NAND_2",
+      "is_output": true,
+      "name": "NAND2_5",
+      "id": "N22"
+    },
+    {
+      "type": "NAND_2",
+      "is_output": true,
+      "name": "NAND2_6",
+      "id": "N23"
+    }
+  ],
+  "links": [
+    {
+      "source": "N1",
+      "target": "N10"
+    },
+    {
+      "source": "N2",
+      "target": "N16"
+    },
+    {
+      "source": "N3",
+      "target": "N10"
+    },
+    {
+      "source": "N3",
+      "target": "N11"
+    },
+    {
+      "source": "N6",
+      "target": "N11"
+    },
+    {
+      "source": "N7",
+      "target": "N19"
+    },
+    {
+      "source": "N10",
+      "target": "N22"
+    },
+    {
+      "source": "N11",
+      "target": "N16"
+    },
+    {
+      "source": "N11",
+      "target": "N19"
+    },
+    {
+      "source": "N16",
+      "target": "N22"
+    },
+    {
+      "source": "N16",
+      "target": "N23"
+    },
+    {
+      "source": "N19",
+      "target": "N23"
+    }
+  ]
+}
